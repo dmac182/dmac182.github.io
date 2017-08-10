@@ -1,0 +1,79 @@
+/* projects list page styling */
+
+.projects-container {
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* spacing and hyperlink styling for each project item in list */
+.project-item {
+	margin: auto;
+	opacity: 1;
+	padding: .5rem;
+	transition: .5s ease;
+}
+
+.hover-container {
+	position: relative;
+}
+
+/* transition for image fading out on hover */
+.project-image {
+	position: relative;
+	-webkit-transition: opacity .4s ease-in-out;
+  -moz-transition: opacity .4s ease-in-out;
+  -ms-transition: opacity .4s ease-in-out;
+  -o-transition: opacity .4s ease-in-out;
+  transition: opacity .4s ease-in-out;
+}
+
+/* styling for text appearing when project images are hovered over */
+.hover-text{
+  	color: white;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+  	opacity: 0;
+    -webkit-transition: opacity 0.6s ease-in-out;
+    -moz-transition: opacity 0.6s ease-in-out;
+    -o-transition: opacity 0.6s ease-in-out;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.wip {
+  display: none;
+}
+
+/* hover opacity changes */
+.project-image:hover {
+  opacity: 0.1;
+}
+
+.hover-container:hover, .hover-container:focus, .hover-text {
+  opacity: 1;
+
+}
+
+a, .project-item {
+	text-decoration: none;
+}
+
+.project-image {
+	margin-left: 0;
+}
+
+/* resolve spacing between header 3 and header 4 for project list */
+h3 {
+	margin: .25rem;
+	margin-left: 0;
+}
+

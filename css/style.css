@@ -1,0 +1,28 @@
+/* styling based on example from: https://codepen.io/SitePoint/pen/dPqqvN */
+
+/* Styling */
+
+.column {
+    padding: 5px;
+    min-height: 30px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.row:last-child {
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 550px) {
+    .row {
+        margin-bottom: 0;
+    }
+    .column {
+        margin-bottom: 10px;
+    }
+    .row:last-child .column:last-child {
+        margin-bottom: 0;
+    }
+}

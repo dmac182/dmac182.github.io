@@ -1,0 +1,110 @@
+/* based on example shown in week 5 of IAT 339 lecture grid example */
+
+*, *::after, *::before {
+
+	box-sizing: border-box;
+
+}
+
+
+
+[class^='grid-col-'] {
+
+	float: left;
+
+	padding: 0; 
+
+}
+
+.grid-col-1of2-alt {
+	width: 50%;
+}
+
+.grid-col-1of1, .grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3  {
+
+	width: 100%;
+
+}
+
+
+
+.grid-row::after {
+
+	content: "";
+
+	display: block;
+
+	clear: both;
+
+}
+
+
+
+
+@media (min-width: 48.75em) {
+
+
+	.grid-col-1of4 {
+
+		width: 50%;
+
+	}
+
+
+}
+
+
+
+@media (min-width: 73em) {
+
+
+
+	.grid-col-2of3 {
+
+		width: 66.666%;
+
+	}
+
+
+
+	.grid-col-1of3 {
+
+		width: 33.333%;
+
+	}
+
+	.grid-col-1of2 {
+		width: 50%;
+	}
+
+
+
+	.grid-col-1of4 {
+
+		width: 25%;
+
+	}
+
+	.grid-col-1of3-category {
+
+		width: 33.333%;
+
+	}
+
+	.grid-col-1of2-alt {
+
+		width: 50%;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+/* styling for page header title */
+.title-container {
+    margin: auto;
+    padding: 1rem;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* styling for forms */
+.contact-container {
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-form {
+	color: #646566;
+	font-size: 18px;
+	font-family: "Times New Roman", Georgia, serif; 
+}
+
+.contact-large {
+	height: 200;
+	overflow: auto;
+}
+
+/* button styling */
+.basic-button {
+    color: white;
+    background-color: #075eed;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    border-radius: 7px;
+}
+
+.form-button {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.basic-button:hover, .basic-button:focus {
+    background-color: #1d83e2;
+}

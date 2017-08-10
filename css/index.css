@@ -1,0 +1,273 @@
+/* styling for the header across each page */
+.header-container {
+    height: 10rem; 
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+    background-color: #009CE5;
+}
+
+.nav-link-container {
+    width:100%;
+    text-align: center;
+}
+
+.header-links {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 2% 2% 7% 2%;
+}
+
+/* img icons used throughout site */
+.header-icon {
+    vertical-align: left;
+    float: left;
+    height: 4.5rem;
+}
+
+.social-icon {
+    vertical-align: middle;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.5;
+    margin: 0.3rem;
+    transition: .5s ease;
+}
+
+.social-icon:hover, .social-icon:focus {
+     opacity: 1;
+}
+
+.page-links {
+    float: right;
+}
+    
+
+.page-link {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2rem;
+    margin-top: 0.4rem;
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    text-align: center;
+    transition: .5s ease;
+}
+
+@media (min-width: 73em) {
+
+    .page-link {
+        margin-left: 5rem;
+    }
+}
+
+/* actions for when header is selected */
+.page-link:hover, .page-link:focus {
+    color: #99c6ef;
+    text-decoration: underline;
+}
+
+/* banner styling for home page */
+.banner-container {
+    height: 30rem;
+    width: 100%;
+    transform: translateY(-20%);
+    background-image: url("../img/darren-banner.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+/* media query for banner image to not display on mobile resolutions, and moves page links */
+@media only screen and (max-width: 610px) {
+    .banner-container {
+        display: none;
+    }
+
+    .page-links {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .page-link {
+        width: 100%;
+    }
+}
+
+/* containers for page body wrapper and page content  */
+
+.body-container {
+    height: auto;
+    margin-top: 4.7rem;
+    padding-bottom: 10rem;
+}
+
+.page-container {
+    min-height: 100%;
+    position: relative;
+}
+
+.wrapper {
+    padding: 0 10%;
+}
+
+
+/* footer social nav bar */
+.footer-container {
+    position: absolute;
+    bottom: 0;
+    height: auto; 
+    width: 100%;
+}
+
+.main-footer-nav-container {
+    width:100%;
+    text-align: center;
+}
+
+.footer-content-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-content {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* general style settings */
+body {
+    background-color: #009CE5; 
+}
+
+a {
+    font-family: arial;
+}
+
+img {
+    height: 100%;
+    max-width: 100%
+}
+
+/* text element styling */
+
+h1 {
+    font-family: "Gothic", Gothic, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: "Arial", arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-family: "Arial", arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.35rem;
+}
+
+h4 {
+    font-family: "Gothic", Gothic, sans-serif;
+    font-size: .75rem;
+    margin: 0rem;
+}
+
+p {
+    font-family: "Arial", arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.25rem;
+}
+
+/* specific text element classes for bio */
+
+.bio-title {
+    color: white;
+    font-size: 36px;
+    display: inline;
+}
+
+.bio-body {
+    color: white;
+    display: inline;
+    font-size: 18px;
+}
+
+.bio-container {
+    border-style: solid;
+    color: white;
+    border-width: 2px;
+    margin: auto;
+    padding: 2rem;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: block;
+}
+
+/* 3 column description styling for text and images */
+.describe-title {
+    color: white;
+    display: inline;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+}
+
+.describe-body {
+    color: white;
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    width: 85%;
+}
+
+.describe-container {
+    margin: auto;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.title-image {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+/* image styling */
+
+.index-image {
+    width: 100%;
+    height: auto;
+}
+
+/* button styling */
+.basic-button {
+    color: white;
+    background-color: #075eed;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    border-radius: 7px;
+}
+
+.basic-button:hover, .basic-button:focus {
+    background-color: #af5c20;
+}

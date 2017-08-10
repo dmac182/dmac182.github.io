@@ -1,0 +1,150 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  color: white;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  color: black;
+  padding: 0;
+}
+
+form {
+	margin-bottom: 2rem;
+}
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+body {
+    background-color: #009CE5; 
+}
+
+h1 {
+    font-family: "Gothic", Gothic, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: "Arial", arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-family: "Arial", arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.35rem;
+}
+
+h4 {
+    font-family: "Gothic", Gothic, sans-serif;
+    font-size: .75rem;
+    margin: 0rem;
+}
+
+p {
+    font-family: "Arial", arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.25rem;
+}
+
+.explanation-text {
+	color: black;
+	display: inline;
+}
+
+.text-content {
+	color: white;
+	display: inline;
+}
+
+.wireframe {
+	margin: 1rem;
+}
+
+.text-spacer {
+	vertical-align: top;
+	display: inline-block;
+	width: 18%;
+}
+
+.text-spacer-small {
+	vertical-align: top;
+	display: inline-block;
+	width: 32%;
+}
+
+.text-spacer-medium {
+	vertical-align: top;
+	display: inline-block;
+	width: 48%;
+}
+
+.text-spacer-code {
+	vertical-align: top;
+	display: inline-block;
+	width: 60%;
+}
+
+
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+.text-spacer-large {
+	vertical-align: top;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+
+.text-spacer-image {
+	vertical-align: top;
+	display: inline;
+	width: 100%;
+	position: relative;
+}
+
+.main-nav-container {
+	background-size: 500px 100px;
+	background-image: url("../img/Dark-Wood-Panels.jpg");
+	padding: 1rem;
+	text-align: center;
+}
+
+.main-nav-header {
+	margin-left: 5rem;
+	color: white;
+	text-decoration: none;
+}
+
+.main-nav-header:hover, .main-nav-header:focus {
+	text-decoration: underline;
+}
+
+.bottom-align {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 1.5rem;
+}

@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Darren MacPhail Portfolio Style Guide</title>
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styleguide.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/project-page.css" rel="stylesheet">
+    <link href="css/projects.css" rel="stylesheet">
+    <link href="css/grids2.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <h1>Portfolio Style Guide</h1>
+    <h3>by Darren MacPhail</h3>
+
+    <nav>
+      
+      <p>
+        Navigation:
+        <a href="index.html">Portfolio Site</a>,
+        <a href="styleguide.html">Style Guide</a>,
+        <a href="citations.html">Citations</a>
+      </p>
+
+    </nav>
+    <br>
+
+    <nav>
+      
+      <p>
+        Go to:
+        <a href="#interactive_elements">Interactive Elements</a>,
+        <a href="#text_elements">Text Elements</a>,
+        <a href="#combined_elements">Combined Elements</a>
+      </p>
+
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+      <!-- Header Button Example -->
+
+        <h2>Header Navigation Button</h2>
+
+        <div class="text-spacer">
+        <h3>Rendered Element:</h3>
+        <a href="index.html" class="page-link">Home</a>
+		    </div>
+
+        <div class="text-spacer">
+        <h3>CSS Selector:</h3>
+        <p>a, .page-link</p>
+        </div>
+
+        <div class="text-spacer-code">
+        <h3>Sample Code:</h3>
+        <code>&lt;a href="index.html" class="page-link"&gt;home&lt;/a&gt;</code>
+        </div>
+
+      </section>
+
+     <!-- Social Media Button Example -->
+      <section>
+        <h2>Social Media Button</h2>
+        <div class="text-spacer">
+        <h3>Rendered Element:</h3>
+        <a href="https://www.linkedin.com/in/darren-macphail-926003125/"><img class="social-icon" src="img/linkedin-icon.png" alt="linkedin-icon"></a>
+		</div>
+
+        <div class="text-spacer">
+        <h3>CSS Selector:</h3>
+        <p>a, img, .social-icon</p>
+        </div>
+
+        <div class="text-spacer-code">
+        <h3>Sample Code:</h3>
+        <code>
+        	 &lt;a href="https://www.linkedin.com/in/darren-macphail-926003125/"&gt;&lt;img class="social-icon" src="img/linkedin-icon.png" alt="linkedin-icon"&gt;&lt;/a&gt;
+        </code>
+        </div>
+        
+      </section>
+
+     <!-- Project Image Button -->
+      <section>
+      
+        <h2>Project Button</h2>
+
+        <div class="text-spacer">
+        <h3>Rendered Element:</h3>
+			     <div class="hover-container">
+              <a href="youtube-page.html">
+                <div class="hover-text">See Project</div>
+                <img class="project-image" src="img/spec-thumbnail.png" style="width:300px;height:200px;" alt="Youtube Logo">
+              </a>
+            </div>
+		</div>
+
+        <div class="text-spacer">
+        <h3>CSS Selector:</h3>
+        <p>.hover-container, a, .hover-text, img, .project-image</p>
+        </div>
+
+        <div class="text-spacer-code">
+        <h3>Sample Code:</h3>
+        <code>
+        	 &lt;div class="hover-container"&gt;
+              &lt;a href="youtube-page.html"&gt;
+                &lt;div class="hover-text"&gt;See Project&lt;/div&gt;
+                &lt;img class="project-image" src="img/New-intro-web-edit.gif" style="width:300px;height:200px;" alt="Youtube Logo"&gt;
+              &lt;/a&gt;
+            &lt;/div&gt;
+        </code>
+        </div>
+
+      </section>
+
+    </section>
+
+
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+    <!-- Text Heading Examples -->
+      <section>
+        <h2>Headings</h2>
+        	<div class ="text-format">
+				<div class="text-spacer">
+					<h3 class="text-content">Rendered Element</h3>
+				</div>
+				<div class="text-spacer">
+					<h3 class="text-content">Font Size</h3>
+				</div>
+				<div class="text-spacer">
+					<h3 class="text-content">Font Style</h3>
+				</div>
+				<div class="text-spacer">
+					<h3 class="text-content">CSS Selector</h3>
+				</div>
+				<div class="text-spacer">
+					<h3 class="text-content">Sample Code</h3>
+				</div>
+			</div>
+			<section>
+			</section>
+        	<div class ="text-format">
+				<div class="text-spacer">
+					<h1 class="text-content">Main Heading</h1>
+				</div>
+				<div class="text-spacer">
+					<h1 class="explanation-text">2rem</h1>
+				</div>
+				<div class="text-spacer">
+					<h1 class="explanation-text">Normal</h1>
+				</div>
+				<div class="text-spacer">
+					<h1 class="explanation-text">h1</h1>
+				</div>
+				<div class="text-spacer">
+					<h1 class="explanation-text"><code>&lt;h1&gt;Main Heading&lt;/h1&gt;</code></h1>
+				</div>
+			</div>
+			<br>
+
+			<div class ="text-format">
+				<div class="text-spacer">
+					<h2 class="text-content">Category Title</h2>
+				</div>
+				<div class="text-spacer">
+					<h2 class="explanation-text">1.75rem</h2>
+				</div>
+				<div class="text-spacer">
+					<h2 class="explanation-text">Bold</h2>
+				</div>
+				<div class="text-spacer">
+					<h2 class="explanation-text">h2</h2>
+				</div>
+				<div class="text-spacer">
+					<h2 class="explanation-text"><code>&lt;h2&gt;Category Title&lt;/h2&gt;</code></h2>
+				</div>
+			</div>
+			<br>
+
+			<div class ="text-format">
+				<div class="text-spacer">
+					<h3 class="text-content">Section Header</h3>
+				</div>
+				<div class="text-spacer">
+					<h3 class="explanation-text">1.35rem</h3>
+				</div>
+				<div class="text-spacer">
+					<h3 class="explanation-text">Normal</h3>
+				</div>
+				<div class="text-spacer">
+					<h3 class="explanation-text">h3</h3>
+				</div>
+				<div class="text-spacer">
+					<h3 class="explanation-text"><code>&lt;h3&gt;Section Header&lt;/h3&gt;</code></h3>
+				</div>
+			</div>
+			<br>
+      </section>
+
+     <!-- Paragraph Text Example -->
+
+      <section>
+        <h2>Paragraphs</h2>
+        <div class ="text-format">
+				<div class="text-spacer">
+					<h3 class="text-content">Rendered Element</h3>
+				</div>
+				<div class="text-spacer">
+					<h3 class="text-content">Font Size</h3>
+				</div>
+				<div class="text-spacer">
+					<h3 class="text-content">Font Style</h3>
+				</div>
+				<div class="text-spacer">
+					<h3 class="text-content">CSS Selector</h3>
+				</div>
+				<div class="text-spacer">
+					<h3 class="text-content">Sample Code</h3>
+				</div>
+			</div>
+			<section>
+			</section>
+        <div class ="text-format">
+				<div class="text-spacer">
+					<p class="text-content">Paragraph Text</p>
+				</div>
+				<div class="text-spacer">
+					<p class="explanation-text">1rem</p>
+				</div>
+				<div class="text-spacer">
+					<p class="explanation-text">Normal</p>
+				</div>
+				<div class="text-spacer">
+					<p class="explanation-text">p</p>
+				</div>
+				<div class="text-spacer">
+					<p class="explanation-text"><code>&lt;p&gt;Paragraph Text&lt;/p&gt;</code></p>
+				</div>
+			</div>
+      </section>
+
+      <!-- Other Text Used -->
+      <section>
+        <h2>Other Text Elements</h2>
+
+        <div class="text-spacer">
+        <h3>Rendered Element:</h3>
+          <div class="project-item-1">
+              <div class="describe-title">
+                <h2>Some Context</h2>
+                  <div class="describe-body">
+                  <p>An example outlining my role in this project.</p>
+                  </div>
+                  <div class="role"><p><strong>ROLES: </strong>Programmer, Designer, Writer.</p></div>
+              </div>
+          </div>
+        </div>
+
+        <div class="text-spacer">
+        <h3>CSS Selector:</h3>
+        <p>.project-item-1, .describe-title, .describe-body, .role, strong, p, h2</p>
+        </div>
+
+        <div class="text-spacer-code">
+        <h3>Sample Code:</h3>
+        <code>          
+          &lt;div class="project-item-1"&gt;
+              &lt;div class="describe-title"&gt;
+                &lt;h2&gt;Some Context&lt;/h2&gt;
+                  &lt;div class="describe-body"&gt;
+                  &lt;p&gt;An example outlining my role in this project.&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class="role"&gt;&lt;p&gt;&lt;strong&gt;ROLES: &lt;/strong&gt;Programmer, Designer, Writer.&lt;/p&gt;&lt;/div&gt;
+              &lt;/div&gt;
+          &lt;/div&gt;
+        </code>
+        </div>
+
+      </section>
+
+      <section>
+        <h2>Project Outline</h2>
+
+        <div class="text-spacer">
+        <h3>Rendered Element:</h3>
+              <div class="describe-title">
+                <h3>Project Title</h3>
+                <h4>Date of Completion</h4>
+                  <div class="describe-body">
+                  <p>Description of the project.</p>
+                  </div>
+              </div>
+		    </div>
+
+        <div class="text-spacer">
+        <h3>CSS Selector:</h3>
+        <p>.describe-title, .describe-body, h3, h4, p</p>
+        </div>
+
+        <div class="text-spacer-code">
+        <h3>Sample Code:</h3>
+        <code>
+              &lt;div class="describe-title"&gt;
+                &lt;h3&gt;Project Title&lt;/h3&gt;
+                &lt;h4&gt;Date of Completion&lt;/h4&gt;
+                  &lt;div class="describe-body"&gt;
+                  &lt;p&gt;Description of the project.&lt;/p&gt;
+                  &lt;/div&gt;
+              &lt;/div&gt;
+        </code>
+        </div>
+
+      </section>
+
+    </section>
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+    <!-- Navigation Bar Example -->
+      <section>
+        <h2>Main Navigation</h2>
+
+        <div class="text-spacer-large">
+        <h3>Rendered Element:</h3>
+	         <div class="header-container"> 
+            <div class="nav-link-container">
+              <div class="header-links">
+                <div class="wrapper">
+                  <nav>
+                    <img class="header-icon" src="img/header-icon-v2.png" alt="Darren MacPhail Video editing & Motion Graphics">
+                    <div class="page-links">
+                      <a href="index.html" class="page-link">About</a>
+                      <a href="projects.html" class="page-link">Projects</a>
+                      <a href="mailto:dmacphail182@gmail.com" class="page-link">Contact</a>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            </div>
+		    </div>
+
+        <div class="text-spacer-medium">
+        <h3>CSS Selector:</h3>
+        <p>.header-container, .nav-link-container, .header-links, .wrapper, nav, .header-icon, img, .page-links, .page-link</p>
+        </div>
+
+        <div class="text-spacer-code">
+        <h3>Sample Code:</h3>
+        <code>
+        	&lt;div class="header-container"&gt; 
+            &lt;div class="nav-link-container"&gt;
+              &lt;div class="header-links"&gt;
+                &lt;div class="wrapper"&gt;
+                  &lt;nav&gt;
+                    &lt;img class="header-icon" src="img/header-icon-v2.png" alt="Darren MacPhail Video editing & Motion Graphics"&gt;
+                    &lt;div class="page-links"&gt;
+                      &lt;a href="index.html" class="page-link"&gt;About&lt;/a&gt;
+                      &lt;a href="projects.html" class="page-link"&gt;Projects&lt;/a&gt;
+                      &lt;a href="mailto:dmacphail182@gmail.com" class="page-link"&gt;Contact&lt;/a&gt;
+                    &lt;/div&gt;
+                  &lt;/nav&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+	    </code>
+        </div>
+
+      </section>
+
+      <section>
+      	<h2>Gif Image Element & Text</h2>
+
+      	<div class="text-spacer-medium">
+      	<h3>Rendered Element:</h3>
+      	
+			     <div class="title-image">
+              <img class="bio-image" src="img/we-should-talk.gif" style="width:300px;height:300px;" alt="We-Should-Talk">
+          </div>
+          <div class="describe-body">
+              <p>A set of text describing my passion and qualities as a creative.</p>
+          </div>
+		  </div>
+
+
+		<div class="text-spacer-medium">
+        <h3>CSS Selector:</h3>
+        <p>.title-image, .bio-image, img, .describe-body, p</p>
+        </div>
+
+        <div class="text-spacer-code">
+        <h3>Sample Code:</h3>
+        <code>
+        	&lt;div class="title-image"&gt;
+              &lt;img class="bio-image" src="img/we-should-talk.gif" style="width:300px;height:300px;" alt="We-Should-Talk"&gt;
+          &lt;/div&gt;
+          &lt;div class="describe-body"&gt;
+              &lt;p&gt;A set of text describing my passion and qualities as a creative.&lt;/p&gt;
+          &lt;/div&gt;
+	    </code>
+        </div>
+
+      </section>
+
+     <!-- Example of Project Listing -->
+      <section>
+        <h2>Project Listing</h2>
+
+        <div class="text-spacer-large">
+        <h3>Rendered Element:</h3>
+           <div class="grid-col-1of3">
+	         <div class="project-item">
+              <!-- hovering over image will cause text to fade in -->
+              <div class="hover-container">
+              <a href="spec-page.html">
+                <div class="hover-text">See Project</div>
+                <img class="project-image" src="img/spec-thumbnail.png" style="width:300px;height:200px;" alt="Portfolio Video">
+              </a>
+              </div>
+
+              <div class="describe-title">
+                <h3>Speculative Design</h3>
+                <h4>December 5, 2016</h4>
+                  <div class="describe-body">
+                  <p>A project that investigates and proposes possible designs that may exist in the future that criticizes potential design trends and current ones.</p>
+                  </div>
+              </div>
+          </div>
+          </div>
+		    </div>
+
+        <div class="text-spacer-medium">
+        <h3>CSS Selector:</h3>
+        <p>.grid-col-1of3, .project-item, .hover-container, a, .hover-container, .hover-text, img, .project-image, .describe-title, h3, h4, .describe-body</p>
+        </div>
+
+        <div class="text-spacer-code">
+        <h3>Sample Code:</h3>
+        <code>
+
+           &lt;div class="grid-col-1of3"&gt;
+           &lt;div class="project-item"&gt;
+              <!-- hovering over image will cause text to fade in -->
+              &lt;div class="hover-container"&gt;
+              &lt;a href="spec-page.html"&gt;
+                &lt;div class="hover-text"&gt;See Project&lt;/div&gt;
+                &lt;img class="project-image" src="img/spec-thumbnail.png" style="width:300px;height:200px;" alt="Portfolio Video"&gt;
+              &lt;/a&gt;
+              &lt;/div&gt;
+
+              &lt;div class="describe-title"&gt;
+                &lt;h3&gt;Speculative Design&lt;/h3&gt;
+                &lt;h4&gt;December 5, 2016&lt;/h4&gt;
+                  &lt;div class="describe-body"&gt;
+                  &lt;p&gt;A project that investigates and proposes possible designs that may exist in the future that criticizes potential design trends and current ones.&lt;/p&gt;
+                  &lt;/div&gt;
+              &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+        
+	    </code>
+        </div>
+
+      </section>
+
+     <!-- Page Footer Example -->
+      <section>
+      	<h2>Page Footer</h2>
+      	<div class="text-spacer-large">
+      	<h3>Rendered Elements:</h3>
+      	 <div class="footer-container">
+            <div class="footer-content-container">
+              <div class="social-content">
+                <a href="https://twitter.com/GamingPilgrim"><img class="social-icon" src="img/twitter-icon.png" alt="twitter-icon"></a>
+                <a href="https://www.linkedin.com/in/darren-macphail-926003125/"><img class="social-icon" src="img/linkedin-icon.png" alt="linkedin-icon"></a>
+                <a href="https://www.youtube.com/channel/UCmmdN3t9Un2v1VpKNkx3lZA"><img class="social-icon" src="img/youtube-icon.png" alt="youtube-icon"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      	<div class="text-spacer-medium">
+      	<h3>CSS Selector:</h3>
+      	<p>.footer-container, .footer-content-container, .social-content, a, img, .social-icon</p>
+      	</div>
+
+      	<div class="text-spacer-code">
+      	<h3>Sample Code:</h3>
+      	<code>
+         &lt;div class="footer-container"&gt;
+            &lt;div class="footer-content-container"&gt;
+              &lt;div class="social-content"&gt;
+                &lt;a href="https://twitter.com/GamingPilgrim"&gt;&lt;img class="social-icon" src="img/twitter-icon.png" alt="twitter-icon"&gt;&lt;/a&gt;
+                &lt;a href="https://www.linkedin.com/in/darren-macphail-926003125/"&gt;&lt;img class="social-icon" src="img/linkedin-icon.png" alt="linkedin-icon"&gt;&lt;/a&gt;
+                &lt;a href="https://www.youtube.com/channel/UCmmdN3t9Un2v1VpKNkx3lZA"&gt;&lt;img class="social-icon" src="img/youtube-icon.png" alt="youtube-icon"&gt;&lt;/a&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+      	</code> 
+      	</div>
+      </section>
+      </section>
+
+   <!-- Grid Structure Example -->
+    <section>
+        <h2>Website Grid Structure</h2>
+            <div class="text-spacer-medium">
+        			<p>The website uses the grid system as covered during IAT 339, during class.</p>
+        		</div>
+        <h3>Single Column Grid</h3>
+        <div class="grid-row">
+          <div class="grid-col-1of2">
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+				  </div>
+		    </div>
+		<br>
+
+		<h3>Three Column Grid</h3>
+      <div class="grid-row">
+				<div class="grid-col-1of3">
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+				</div>
+				<div class="grid-col-1of3">
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+				</div>
+				<div class="grid-col-1of3">
+					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+				</div>
+		  </div>
+
+      </section>
+  </body>
+</html>

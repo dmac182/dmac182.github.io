@@ -1,0 +1,83 @@
+/* projects list page styling */
+
+.content-container {
+    margin-top: 3rem;
+}
+
+
+/* styling for video header content */
+.video-header-container {
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* responsive video styling based on code from: https://snippetrepo.com/snippets/making-a-video-scalable-htmlcss */
+.project-video {
+	position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.project-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.title-text {
+	text-align: center;
+}
+
+.role {
+	font-family: "Libre Franklin", sans-serif;
+	font-style: normal;
+	letter-spacing: .05rem;
+	font-size: .8rem;
+}
+
+
+/* spacing and styling for each project item, including text and images */
+
+/* spacing/ stlying for role description */
+.project-item-1 {
+    border-style: solid;
+    color: white;
+    border-width: 2px;
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+/* spacing and stlying for project items in grid below role description */
+.project-item {
+	margin: auto;
+    width: 100%;
+    display: inline-block;
+}
+
+/* handles image scaling for smaller displays to maintain correct ratios and dimensions */
+.project-image {
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.long-description {
+	font-size: 1rem;
+}
+
+a, .project-item {
+	text-decoration: none;
+}
+
